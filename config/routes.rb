@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   
   
+  post 'static_pages/thank_you', to: 'static_pages#thank_you'
+
   get 'contact', to: 'static_pages#contact'
 
   get 'projects', to: 'static_pages#projects'
